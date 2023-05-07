@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* Aca estoy comenzando mi header: color de fondo | aplicando flex | items al centro | items space between | dando un lago de 90px | padding */
+.header{
+    background-color: #f1d7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 5px 10%;
+}
+/* Achicando mi logotipo*/
+.logotipo{
+    width: 150px;
+}
+/* modificando mis links*/
+link{
+margin: 5px auto;
+padding-right: 5px;
+}
+/* sacandole el stilo a mi grupo de links | margin | padding*/
+.links ul{
+    margin: auto;
+    padding: 10px 0 0;
+    list-style: none;
+    text-align: right;
+    
+}
+
+.links ul li{
+    float: none;
+    display: inline-block;
+    padding: 3px 20px;
+    
+}
+
+/*.logo{
+    width: 10px;
+    padding-bottom: 10px;
+}*/
+
+
+footer{
+    background-color: gainsboro;
+    display: flex;
+
+    align-content: center;
+    justify-content: space-around;
+     height: 150px;
+     padding: 20px 7%;
+     text-decoration: none;
+
+}
+
+.linksFooter ul{
+  margin:auto;
+  padding: 10px 0px 0px;
+  list-style: none;
+  padding: 4px;
+  
+
+}
+.linksFooter ul li{
+    float: none;
+    padding: 3px ;
+
+    
+}
+.redes p{
+  margin: 10px;
+  padding-left: 10px;
+  padding: 5px;
+  
+}
+.links-redes ul li{
+    float:none ;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+  
+.logo{
+    height: 120px;
+}
+
+/*AVISO*/
+.aviso{
+    background: yellow;
+    text-align: center;
+    margin-top: 3px;
+}
+/* 3 img de prodcutos con grid*/
+
+.grid-productos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.img-taza{
+    width: 300px;
+}
+.img-tazones{
+    width: 300px;
+}
+.img-bijou{
+    width: 300px;
+}
+
+/*html CONTACTOS*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 1%;
+}
+
+
